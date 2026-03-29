@@ -1,4 +1,5 @@
 from telegram import Update
+import imghdr
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 from datetime import datetime # Import datetime
 from operator import itemgetter # Import itemgetter for sorting
