@@ -1,5 +1,4 @@
 from telegram import Update
-import imghdr
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 from datetime import datetime # Import datetime
 from operator import itemgetter # Import itemgetter for sorting
@@ -130,12 +129,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(reply)
 
 # ================= RUN =================
-
-import nest_asyncio
-import asyncio
-
-nest_asyncio.apply()
-
 # Global variable to hold the running application instance
 running_app = None
 
