@@ -7,7 +7,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackQueryHandler
 
 
-TOKEN = "8770946950:AAGnDlvveCa6bQyiXZuvqIJ5ts5wwKEa38g"
+TOKEN = "TOKEN"
 
 # ================= DATA =================
 
